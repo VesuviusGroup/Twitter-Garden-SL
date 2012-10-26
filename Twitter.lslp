@@ -41,10 +41,12 @@ default
     touch_start(integer count)
     {
         integer i = 0;
+        integer child;
+        integer index;
         for(i;i < count;i++){
-            integer child = llDetectedLinkNumber(i);
-            integer index = llListFindList(linesOnLink, [child]);
-            if(index){
+            child = llDetectedLinkNumber(i);
+            index = llListFindList(linesOnLink, [child]);
+            if(index != -1){
                 llInstantMessage(llDetectedKey(i), "See the tweet from  " + llList2String(linesOnLink,index + 1) + " Link: " + llList2String(linesOnLink, index + 3));            
             }
         }
