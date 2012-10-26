@@ -17,8 +17,11 @@ Now copy the code from twitter-search.lslp to a script in the root prim of your 
 
 
 If you have any questions or need webhosting for a non profit project you can reach me here:
+
 frans@thevesuviusgroup.com.
+
 inSL: Frans Charming
+
 Skype mrfrans
 
 
