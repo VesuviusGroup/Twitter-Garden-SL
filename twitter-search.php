@@ -1,5 +1,5 @@
 <?php
-
+//Orginal can be found here: https://github.com/VesuviusGroup/Twitter-Garden-SL
 
 
 $query = $_REQUEST['query'];
